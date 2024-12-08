@@ -7,9 +7,10 @@ class Solution(object):
             set_num.add(num)
         return False
 
-s = Solution()
-# Test cases for Contains Duplicate
-print(s.containsDuplicate([1, 2, 3, 1]))  # Expected: True
-print(s.containsDuplicate([1, 2, 3, 4]))  # Expected: False
-print(s.containsDuplicate([1, 1, 1, 1]))  # Expected: True
-print(s.containsDuplicate([]))            # Expected: False
+sol_217 = Solution()
+
+# Test cases for 217. Contains Duplicate
+print(sol_217.containsDuplicate([1, 2, 3, 1]))  # Expected: True
+print(sol_217.containsDuplicate([1, 2, 3, 4]))  # Expected: False
+print(sol_217.containsDuplicate([1]))           # Expected: False
+print(sol_217.containsDuplicate([]))            # Expected: False
