@@ -9,9 +9,9 @@ class Solution(object):
 
         return list(strs_hash.values())
 
-s = Solution()
+sol_49 = Solution()
 
-# Test cases for Group Anagrams
-print(s.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))  # Expected: [["eat", "tea", "ate"], ["tan", "nat"], ["bat"]]
-print(s.groupAnagrams([""]))  # Expected: [[""]]
-print(s.groupAnagrams(["a"]))  # Expected: [["a"]]
+# Test cases for 49. Group Anagrams
+print(sol_49.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))  # Expected: [["eat", "tea", "ate"], ["tan", "nat"], ["bat"]]
+print(sol_49.groupAnagrams([""]))                                           # Expected: [[""]]
+print(sol_49.groupAnagrams(["a"]))                                          # Expected: [["a"]]
