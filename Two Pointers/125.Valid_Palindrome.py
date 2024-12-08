@@ -4,10 +4,11 @@ class Solution(object):
 
         return valid_pal == valid_pal[::-1]
 
-sol = Solution()
-# Test cases for Valid Palindrome
-print(sol.isPalindrome("A man, a plan, a canal: Panama"))  # Expected: True
-print(sol.isPalindrome("race a car"))                      # Expected: False
-print(sol.isPalindrome(""))                                # Expected: True
-print(sol.isPalindrome(" "))                               # Expected: True
-print(sol.isPalindrome("ab_a"))                            # Expected: True
+sol_125 = Solution()
+
+# Test cases for 125. Valid Palindrome
+print(sol_125.isPalindrome("A man, a plan, a canal: Panama"))  # Expected: True
+print(sol_125.isPalindrome("race a car"))                      # Expected: False
+print(sol_125.isPalindrome(""))                                # Expected: True
+print(sol_125.isPalindrome(" "))                               # Expected: True
+print(sol_125.isPalindrome("ab_a"))                            # Expected: True
